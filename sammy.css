@@ -1,0 +1,118 @@
+body {
+	background-color: #FF704D;
+	color: #4F4C4C;
+	font-size: 18px;
+	font-weight: bold;
+}
+header {
+	background-color: #FF1A1A;
+	color: #FF9933;
+	height: 60px;
+	padding-top: 10px;
+	text-align: center;
+}
+main {
+	background-color: #ffAF75;
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	margin-left: 190px;
+	overflow: auto;
+}
+nav {
+	text-align: center;
+	font-weight: bold;
+	float: left;
+	width: 180px;
+	padding-top: 12em;
+}
+nav a {
+	text-decoration: none;
+}
+nav ul {
+	font-size: 1.5em;
+	padding-left: 0;
+	margin: 0;
+	list-style-type: none;
+}
+nav a:link {
+	color: #ff0000;
+}
+nav a:visited {
+	color: #ff0000;
+}
+nav a:hover {
+	color: #f13f3f;
+}
+h1 {
+	font-family: Georgia, "Times New Roman", serif;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 44px;
+}
+h2 {
+	color: #FF3300;
+	padding-left: 1.5em;
+	font-size: 36px;
+}
+dt {
+	color: #002171;
+}
+footer {
+	margin-left: 190px;
+	background-color: #ffAF75;
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 2em;
+}
+table {
+	border: 2px solid #e46008;
+	border-collapse: collapse;
+	background-color: #ff9100;
+}
+td, th {
+	padding: 0.5em;
+	border: 2px solid #e42323;
+}
+td {
+	text-align: center;
+}
+th {
+	background-color: #FF704D;
+}
+label {
+	display: block;
+	float: left;
+}
+input, textarea {
+	margin-bottom: 20px;
+	color:#24201f;
+	background-color: #f06f24;
+}
+input[type="submit"] {
+	margin-left: 155px;
+	cursor: pointer;
+}
+.sam {
+	color: #E60000;
+}
+#wrapper {
+	width: 92%;
+	min-width: 960px;
+	max-width: 2048px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 3px 3px 3px #333333;
+	background-color: #90C7E3;
+	background-image: linear-gradient(to bottom, #f19d5c, #E31414);
+	border: 5px solid #FFA733;
+}
+#homehero {
+	height: 500px;
+	background-size: 100% 100%;
+	background-image: url(pizzeria-header.jpg);
+	background-repeat: no-repeat;
+}
